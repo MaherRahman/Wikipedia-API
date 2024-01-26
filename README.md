@@ -15,21 +15,22 @@ python main.py
 pytest test.py
 ```
 # Use whichever API platform you're comfortable with, I recommend Postman. You can now send API requests to these endpoints: 
-###### /most-viewed/<year>/<month>/<week> 
+``` /most-viewed/<year>/<month>/<week> 
 
-###### /most-viewed/<year>/<month>
+/most-viewed/<year>/<month>
 
-######/view-count/<article>/<year>/<month>/<week>
+/view-count/<article>/<year>/<month>/<week>
 
-###### /view-count/<article>/<year>/<month>
+/view-count/<article>/<year>/<month>
 
-###### /most-viewed-day/<article>/<year>/<month>
+/most-viewed-day/<article>/<year>/<month>
 
-###### Where items surrounded by angle brackets <> are variables that you must specify yourself. 
+Where items surrounded by angle brackets <> are variables that you must specify yourself. 
 Ex: 
-###### /most-viewed/<year>/<month>
+/most-viewed/<year>/<month>
 would be: 
-###### http://127.0.0.1:5000/most-viewed/2021/10
+http://127.0.0.1:5000/most-viewed/2021/10
+```
 
 
 # Common issues:
